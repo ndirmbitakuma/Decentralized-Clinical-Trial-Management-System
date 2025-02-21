@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/patient-enrollment.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.result-analysis]
+path = 'contracts/result-analysis.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
